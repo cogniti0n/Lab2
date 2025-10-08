@@ -10,11 +10,11 @@ void func(int cnt)
 {
    if (vec.size() == M)
    {
-      for (const auto element : vec)
+      for (int i = 0; i < vec.size(); i++)
       {
-         cout << element << " ";
+         cout << vec[i] << " ";
       }
-      cout << "\n";
+      cout << endl;
    }
 
    for (int i = cnt + 1; i <= N; i++)
